@@ -14,6 +14,7 @@
 		6304804E26343B5D00B1C857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6304804D26343B5D00B1C857 /* Assets.xcassets */; };
 		6304805126343B5D00B1C857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6304804F26343B5D00B1C857 /* LaunchScreen.storyboard */; };
 		63048065263440C800B1C857 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63048064263440C800B1C857 /* APIKey.swift */; };
+		6304806E263446A800B1C857 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6304806D263446A800B1C857 /* Keys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6304805026343B5D00B1C857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6304805226343B5D00B1C857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63048064263440C800B1C857 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		6304806D263446A800B1C857 /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Keys.plist; path = "../../../News-Rxswift/News App/News App/Keys.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				6304804F26343B5D00B1C857 /* LaunchScreen.storyboard */,
 				6304805226343B5D00B1C857 /* Info.plist */,
 				63048064263440C800B1C857 /* APIKey.swift */,
+				6304806D263446A800B1C857 /* Keys.plist */,
 			);
 			path = "News App";
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6304806E263446A800B1C857 /* Keys.plist in Resources */,
 				6304805126343B5D00B1C857 /* LaunchScreen.storyboard in Resources */,
 				6304804E26343B5D00B1C857 /* Assets.xcassets in Resources */,
 				6304804C26343B5B00B1C857 /* Main.storyboard in Resources */,
