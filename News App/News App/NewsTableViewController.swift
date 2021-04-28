@@ -18,6 +18,6 @@ class NewsTableViewController: UITableViewController {
     
     private func populateNews() {
         let key = APIKey.newsApiKey
-        let url = URL(string: "https://newsapi.org/v2/top-headlines?country=us&apiKey=2ce38f256a324f99a24af17fe993082a")
+        let url = URL(string: "https://newsapi.org/v2/top-headlines?country=us&apiKey=\(key)")
     }
 }
