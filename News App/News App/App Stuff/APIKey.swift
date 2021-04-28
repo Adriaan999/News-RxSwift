@@ -19,7 +19,7 @@ struct APIKey {
           fatalError("Couldn't find key 'API_KEY' in 'Keys.plist'.")
         }
         if (value.starts(with: "_")) {
-          fatalError("Register for API KEY on https://newsapi.org/")
+          fatalError("Register for API KEY on https://newsapi.org/ and add it to Keys.plist")
         }
         return value
       }
